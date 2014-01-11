@@ -13,6 +13,7 @@ a
 {
 	color: #DD4F24;
 }
+
 body
 {
 	background: #EFEFEF;
@@ -42,6 +43,7 @@ header
 	color: white;
 	margin: 0;
 	padding: 0.5em;
+	position: relative;
 }
 header:after{
 	clear: both;
@@ -85,6 +87,26 @@ header #avatar img
 	float: left;
 	width: 50px;
 }
+
+
+/*Revisar código*/
+header #home
+
+{
+	background: #22BCE0;
+	border-radius: 0.2em 0.2em 0 0;
+	color: white;
+	display: inline;
+	text-decoration: none;
+	padding: 0.2em 28px;	
+	margin: 74px 170px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+}
+
+
 header #logo img
 {
 	width: 80px;
@@ -149,6 +171,7 @@ nav #publicar_nav a
 	padding: 0.5em 1em;
 	text-decoration: none;
 }
+
 #bienvenida
 {
 	display: none;
@@ -265,6 +288,8 @@ nav #publicar_nav a
 	color: green;
 	content: "\e002";
 }
+
+
 
 
 

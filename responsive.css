@@ -1,7 +1,13 @@
+ /*Condición que hace cambios si
+el ancho de la pantalla es menor a 768  Nota: <768 dispositivos moviles
+ => a 768 desktop 1200 máximo*/ 
+
 @media screen and (min-width: 768px)
+
 {
 	body
 	{
+		border: 2px solid red;
 		margin: 0 auto;
 		max-width: 1200px;
 	}
